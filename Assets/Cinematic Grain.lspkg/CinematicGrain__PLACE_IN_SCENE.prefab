@@ -1,0 +1,36 @@
+- !<ObjectPrefab/682135ca-a9cc-4cd9-8e66-4c0c16871f8f>
+  PackagePath: ""
+  objects:
+    - !<own> 26813ed8-7cde-4cc1-9546-53dfec29ff3b
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/26813ed8-7cde-4cc1-9546-53dfec29ff3b>
+  PrefabRemaps:
+    - 26813ed8-7cde-4cc1-9546-53dfec29ff3b: 26813ed8-7cde-4cc1-6ab9-ac2013d600c4
+    - 29cfb5dc-3630-4256-9522-3ab25e62284c: 29cfb5dc-3630-4256-6add-c54da19dd7b3
+  Name: CinematicGrain__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 29cfb5dc-3630-4256-9522-3ab25e62284c
+- !<PostEffectVisual/29cfb5dc-3630-4256-9522-3ab25e62284c>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> aae2367a-1131-4acf-aaf6-81ea71c8f7fa

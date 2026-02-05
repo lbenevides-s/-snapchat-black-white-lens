@@ -1,0 +1,13 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 7
+    values:
+      - Cinematic Grain.lspkg/CinematicGrain__PLACE_IN_SCENE.prefab
+      - Cinematic Grain.lspkg/Materials
+      - Cinematic Grain.lspkg/Materials/cinematic_grain.mat
+      - Cinematic Grain.lspkg/Screen Texture.screenTexture
+      - Cinematic Grain.lspkg/Shaders
+      - Cinematic Grain.lspkg/Shaders/cinematic_grain.ss_graph
+      - Cinematic Grain.lspkg/package.native
+  options: 4
